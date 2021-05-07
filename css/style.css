@@ -1,0 +1,41 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+select {display: inherit;}
+
+.memory-barra{
+background-color: #FFF !important;
+transition: background-color 300ms linear;
+-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);
+box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);
+z-index: 999;
+}
+
+img.logo-topo {height: 100%; padding-top: 0.0em; opacity: 0.8;}
+img.logo-topo:hover {opacity: 1.0;}
+
+nav i.material-icons {font-size: 54px; opacity: 0.8;}
+nav i.material-icons:hover {opacity: 1.0;}
+.footer-copyright  {opacity: 0.5;}
